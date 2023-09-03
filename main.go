@@ -1,7 +1,5 @@
 package wordtrie
 
-import "fmt"
-
 const (
 	//ALPHABET_SIZE total chars in english
 	ALPHABET_SIZE = 26

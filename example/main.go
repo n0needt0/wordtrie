@@ -6,7 +6,7 @@ import (
 )
 
 func main() {
-	trie := initTrie()
+	trie := wordtrie.initTrie()
 	words := []string{"sam", "john", "tim", "jose", "rose",
 		"cat", "dog", "dogg", "roses"}
 	for i := 0; i < len(words); i++ {
