@@ -14,7 +14,7 @@ type trie struct {
 	root *trieNode
 }
 
-func initTrie() *trie {
+func InitTrie() *trie {
 	return &trie{
 		root: &trieNode{},
 	}
@@ -24,7 +24,7 @@ const (
 	ARUNE = 'a'
 )
 
-func (t *trie) insert(word string) {
+func (t *trie) Insert(word string) {
 	wordLen := len(word)
 	current := t.root
 	for i := 0; i < wordLen; i++ {
@@ -39,7 +39,7 @@ func (t *trie) insert(word string) {
 	current.isWordEnd = true
 }
 
-func (t *trie) find(word string) bool {
+func (t *trie) Find(word string) bool {
 	wordLen := len(word)
 	current := t.root
 	for i := 0; i < wordLen; i++ {

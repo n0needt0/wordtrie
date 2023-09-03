@@ -1,2 +1,4 @@
 github.com/n0needt0/wordtrie v0.0.0-20230903205059-521f83bf6f1f h1:AmHYQvIRy1jf5UFc0fvirnPH1dyuOvi9YCwP9niScvo=
 github.com/n0needt0/wordtrie v0.0.0-20230903205059-521f83bf6f1f/go.mod h1:q/1qOffcg1kY1/2vQ6vK19xVPu6yiDPPujvETGVrJ6o=
+github.com/n0needt0/wordtrie v0.0.0-20230903210720-3a73582a5bdd h1:UVcpzaSx862OLepGoGiQTaN2sx8hn/ZZJq67Ho6HdKI=
+github.com/n0needt0/wordtrie v0.0.0-20230903210720-3a73582a5bdd/go.mod h1:q/1qOffcg1kY1/2vQ6vK19xVPu6yiDPPujvETGVrJ6o=
